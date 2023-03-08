@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
 
             $table->string('name', 200);
-            $table->string('humedity', 200);
+            $table->string('humidity', 200);
             $table->string('country', 200);
             $table->string('latitude', 250);
             $table->string('longitude', 250);
