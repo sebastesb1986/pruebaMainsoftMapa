@@ -40,7 +40,7 @@ class WeatherController extends Controller
             // Si cumple
             return response()->json(
                 [
-                    'success'=> 'Busqueda capturada exitosamente!',
+                    'success'=> 'Busqueda registrada exitosamente!',
                     'code'=>200
                 ]);
 
